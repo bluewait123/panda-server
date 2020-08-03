@@ -29,4 +29,5 @@ Temporary Items
 
 .idea
 *.iml
-
+*.log
+*.gz
