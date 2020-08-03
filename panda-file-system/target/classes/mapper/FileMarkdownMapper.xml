@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panda.mybatis.mapper.FileMarkdownMapper">
+
+  <sql id="Base_Column_List">
+    ID, CREATE_TIME, MD_FILE_NAME, MD_FILE_PATH, MD_FILE_URL, HTML_FILE_NAME, HTML_FILE_PATH,
+    HTML_FILE_URL, STATUS
+  </sql>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultType="com.panda.mybatis.po.FileMarkdown">
+    select
+    <include refid="Base_Column_List" />
+    from file_markdown
+    where ID = #{id,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insertSelective" parameterType="com.panda.mybatis.po.FileMarkdown">
+    insert into file_markdown
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="mdFileName != null">
+        MD_FILE_NAME,
+      </if>
+      <if test="mdFilePath != null">
+        MD_FILE_PATH,
+      </if>
+      <if test="mdFileUrl != null">
+        MD_FILE_URL,
+      </if>
+      <if test="htmlFileName != null">
+        HTML_FILE_NAME,
+      </if>
+      <if test="htmlFilePath != null">
+        HTML_FILE_PATH,
+      </if>
+      <if test="htmlFileUrl != null">
+        HTML_FILE_URL,
+      </if>
+      <if test="status != null">
+        STATUS,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="mdFileName != null">
+        #{mdFileName,jdbcType=VARCHAR},
+      </if>
+      <if test="mdFilePath != null">
+        #{mdFilePath,jdbcType=VARCHAR},
+      </if>
+      <if test="mdFileUrl != null">
+        #{mdFileUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="htmlFileName != null">
+        #{htmlFileName,jdbcType=VARCHAR},
+      </if>
+      <if test="htmlFilePath != null">
+        #{htmlFilePath,jdbcType=VARCHAR},
+      </if>
+      <if test="htmlFileUrl != null">
+        #{htmlFileUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateByPrimaryKeySelective" parameterType="com.panda.mybatis.po.FileMarkdown">
+    update file_markdown
+    <set>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="mdFileName != null">
+        MD_FILE_NAME = #{mdFileName,jdbcType=VARCHAR},
+      </if>
+      <if test="mdFilePath != null">
+        MD_FILE_PATH = #{mdFilePath,jdbcType=VARCHAR},
+      </if>
+      <if test="mdFileUrl != null">
+        MD_FILE_URL = #{mdFileUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="htmlFileName != null">
+        HTML_FILE_NAME = #{htmlFileName,jdbcType=VARCHAR},
+      </if>
+      <if test="htmlFilePath != null">
+        HTML_FILE_PATH = #{htmlFilePath,jdbcType=VARCHAR},
+      </if>
+      <if test="htmlFileUrl != null">
+        HTML_FILE_URL = #{htmlFileUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        STATUS = #{status,jdbcType=INTEGER},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

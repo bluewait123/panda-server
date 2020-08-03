@@ -1,0 +1,31 @@
+system:
+  type: note
+
+server:
+  port: 18888
+  servlet:
+    context-path: /demo
+
+spring:
+  profiles:
+    active: debug
+  jndi:
+    ignore: true
+
+logging:
+  config: ${user.dir}/config/logConfig.xml
+  path: ${user.dir}
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+
+rest:
+  template:
+    # 从连接池获取连接时间
+    request: 30000
+    # 请求超时时间
+    connect: 30000
+    # 读取内容超时时间
+    read: 30000

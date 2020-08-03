@@ -1,0 +1,6 @@
+META-INF/spring-configuration-metadata.json
+com/panda/mybatis/config/MybatisConfiguration.class
+com/panda/mybatis/config/DruidDataSourceConfiguration.class
+com/panda/mybatis/config/DruidSessionFactory.class
+com/panda/mybatis/config/DruidMonitorConfiguration.class
+com/panda/mybatis/interceptor/SQLPrintInterceptor.class

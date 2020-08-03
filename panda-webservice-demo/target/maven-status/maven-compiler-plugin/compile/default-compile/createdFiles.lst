@@ -1,0 +1,5 @@
+com/panda/webservice/vo/Result.class
+com/panda/webservice/vo/QueryCreditReportRequest.class
+com/panda/webservice/vo/QueryCreditReportResponse.class
+com/panda/webservice/vo/QueryinfoResult.class
+com/panda/webservice/vo/QueryinfoParam.class

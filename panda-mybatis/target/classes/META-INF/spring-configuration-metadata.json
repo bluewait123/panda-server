@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.druid",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.panda.mybatis.config.DruidDataSourceConfiguration",
+      "sourceMethod": "druidDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

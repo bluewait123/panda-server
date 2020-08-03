@@ -1,0 +1,9 @@
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/enums/BossErrorEnum.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/controller/BasicController.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/vo/BossPageReq.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/vo/BossPageResp.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/vo/BossResp.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/vo/BossReq.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/exception/BossException.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/config/HttpHeaderConfig.java
+/Users/wujianhui/work/project/panda/panda-common-boss/src/main/java/com/panda/common/service/BasicService.java

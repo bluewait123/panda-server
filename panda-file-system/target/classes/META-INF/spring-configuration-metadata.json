@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "panda.file",
+      "type": "com.panda.file.utils.FileConfigUtils",
+      "sourceType": "com.panda.file.utils.FileConfigUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "panda.file.html",
+      "type": "com.panda.file.utils.FileConfigInfo",
+      "sourceType": "com.panda.file.utils.FileConfigUtils"
+    },
+    {
+      "name": "panda.file.image",
+      "type": "com.panda.file.utils.FileConfigInfo",
+      "sourceType": "com.panda.file.utils.FileConfigUtils"
+    },
+    {
+      "name": "panda.file.markdown",
+      "type": "com.panda.file.utils.FileConfigInfo",
+      "sourceType": "com.panda.file.utils.FileConfigUtils"
+    }
+  ],
+  "hints": []
+}

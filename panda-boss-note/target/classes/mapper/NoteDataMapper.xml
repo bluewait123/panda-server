@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panda.mybatis.mapper.NoteDataMapper">
+  <resultMap id="ResultMapWithBLOBs" type="com.panda.mybatis.po.NoteData">
+    <constructor>
+      <idArg column="ID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="CREATE_TIME" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="UPDATE_TIME" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="USER_ID" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="NOTE_TYPE" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="TITLE" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="TAGS" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="FILE_ID" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="FILE_URL" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="SCREEN_IMAGE_ID" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="SCREEN_IMAGE_URL" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="PUBLIC_TYPE" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="ACCESS_PWD" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="STATUS" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="DATA" javaType="java.lang.String" jdbcType="LONGVARCHAR" />
+    </constructor>
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    ID, CREATE_TIME, UPDATE_TIME, USER_ID, NOTE_TYPE, TITLE, TAGS, FILE_ID, FILE_URL,
+    SCREEN_IMAGE_ID, SCREEN_IMAGE_URL, PUBLIC_TYPE, ACCESS_PWD, STATUS
+  </sql>
+  <sql id="Blob_Column_List">
+    DATA
+  </sql>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from note_data
+    where ID = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectByUserId" resultType="com.panda.boss.vo.note.item.SimpleQueryNoteDataItem">
+    select a.ID, a.CREATE_TIME, a.TITLE, a.TAGS, b.TYPE_NAME
+    from note_data a
+    left join note_type b on a.NOTE_TYPE = b.id
+    where a.USER_ID = #{userId,jdbcType=VARCHAR}
+    order by a.CREATE_TIME desc
+  </select>
+
+  <select id="selectByTitle" resultType="com.panda.boss.vo.note.item.MultipleQueryNoteDataItem">
+    select t1.ID,t1.TITLE,t1.TAGS,t1.`DATA`,t1.SCREEN_IMAGE_URL,t1.CREATE_TIME,t2.PATHS_ID as NOTE_TYPE_PATHS_ID,t2.PATHS_NAME as NOTE_TYPE_PATHS_NAME
+    from (
+      select b.ID,b.TITLE,b.TAGS,b.`DATA`,b.CREATE_TIME,b.SCREEN_IMAGE_URL,b.NOTE_TYPE
+      from (
+        select id, min(flag) from (
+          select id, 1 as flag
+          from note_data
+          where INSTR(TITLE,#{req.keyword,jdbcType=VARCHAR}) > 0
+          union
+          select id, 2 as flag
+          from note_data
+          where INSTR(`DATA`,#{req.keyword,jdbcType=VARCHAR}) > 0
+        ) t
+        group by id
+      ) a
+      left join note_data b on a.id = b.id
+      where b.USER_ID = #{userId,jdbcType=VARCHAR}
+      <if test="null != req.tags and req.tags.length > 0">
+        and
+        <foreach collection="req.tags" open="(" separator=" or " close=")" item="item">
+          INSTR(b.TAGS,#{item,jdbcType=VARCHAR}) > 0
+        </foreach>
+      </if>
+    ) t1
+    left join note_type t2 on t1.NOTE_TYPE = t2.ID
+    order by CREATE_TIME desc
+  </select>
+
+  <select id="selectByNoteType" resultType="com.panda.boss.vo.note.item.MultipleQueryNoteDataItem">
+    select a.ID,a.TITLE,a.TAGS,a.`DATA`,a.SCREEN_IMAGE_URL,a.CREATE_TIME,b.PATHS_ID as NOTE_TYPE_PATHS_ID,b.PATHS_NAME as NOTE_TYPE_PATHS_NAME
+    from note_data a
+    left join note_type b on a.NOTE_TYPE = b.ID
+    where INSTR(b.PATHS_ID,#{req.noteType,jdbcType=VARCHAR}) > 0
+    and a.USER_ID = #{userId,jdbcType=VARCHAR}
+    order by CREATE_TIME desc
+  </select>
+
+  <select id="selectTagsByUserId" resultType="java.lang.String">
+    select group_concat(tags)
+    from note_data
+    where user_id = #{userId,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insertSelective" parameterType="com.panda.mybatis.po.NoteData">
+    insert into note_data
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME,
+      </if>
+      <if test="userId != null">
+        USER_ID,
+      </if>
+      <if test="noteType != null">
+        NOTE_TYPE,
+      </if>
+      <if test="title != null">
+        TITLE,
+      </if>
+      <if test="tags != null">
+        TAGS,
+      </if>
+      <if test="fileId != null">
+        FILE_ID,
+      </if>
+      <if test="fileUrl != null">
+        FILE_URL,
+      </if>
+      <if test="screenImageId != null">
+        SCREEN_IMAGE_ID,
+      </if>
+      <if test="screenImageUrl != null">
+        SCREEN_IMAGE_URL,
+      </if>
+      <if test="publicType != null">
+        PUBLIC_TYPE,
+      </if>
+      <if test="accessPwd != null">
+        ACCESS_PWD,
+      </if>
+      <if test="status != null">
+        STATUS,
+      </if>
+      <if test="data != null">
+        DATA,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="noteType != null">
+        #{noteType,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="tags != null">
+        #{tags,jdbcType=VARCHAR},
+      </if>
+      <if test="fileId != null">
+        #{fileId,jdbcType=VARCHAR},
+      </if>
+      <if test="fileUrl != null">
+        #{fileUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="screenImageId != null">
+        #{screenImageId,jdbcType=VARCHAR},
+      </if>
+      <if test="screenImageUrl != null">
+        #{screenImageUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="publicType != null">
+        #{publicType,jdbcType=INTEGER},
+      </if>
+      <if test="accessPwd != null">
+        #{accessPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="data != null">
+        #{data,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateByPrimaryKeySelective" parameterType="com.panda.mybatis.po.NoteData">
+    update note_data
+    <set>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        USER_ID = #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="noteType != null">
+        NOTE_TYPE = #{noteType,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        TITLE = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="tags != null">
+        TAGS = #{tags,jdbcType=VARCHAR},
+      </if>
+      <if test="fileId != null">
+        FILE_ID = #{fileId,jdbcType=VARCHAR},
+      </if>
+      <if test="screenImageId != null">
+        SCREEN_IMAGE_ID = #{screenImageId,jdbcType=VARCHAR},
+      </if>
+      <if test="fileUrl != null">
+        FILE_URL = #{fileUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="screenImageUrl != null">
+        SCREEN_IMAGE_URL = #{screenImageUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="publicType != null">
+        PUBLIC_TYPE = #{publicType,jdbcType=INTEGER},
+      </if>
+      <if test="accessPwd != null">
+        ACCESS_PWD = #{accessPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        STATUS = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="data != null">
+        DATA = #{data,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=INTEGER}
+  </update>
+
+</mapper>

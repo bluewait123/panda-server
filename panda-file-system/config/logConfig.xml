@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="60 seconds">
+    <springProperty scope="context" name="LOG_PATH" source="logging.path"/>
+    <property name="USER_HOME" value="${LOG_PATH}"/>
+    <property name="DEFAULT_FILE_NAME" value="DEFAULT"/>
+    <property name="SYSTEM_NAME" value="file-system"/>
+    <property name="MaxSize" value="400mb"/> <!-- support kb、mb、gb  -->
+    <property name="QueueSize" value="8196"/>
+    <property name="MaxFlushTime" value="1000"/> <!-- ms -->
+    <property name="print_charset" value="utf-8"/>
+    
+    <property name="custom_layout" value="%d{yyyyMMdd HH:mm:ss SSS} [%thread-${SYSTEM_NAME}][%level]-%msg%n" />
+    
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${custom_layout}</pattern>
+            <charset>${print_charset}</charset>
+        </encoder>
+    </appender>
+
+
+    <!--  debug 开发使用   -->
+    <appender name="debug" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${USER_HOME}/logs/${SYSTEM_NAME}-debug.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${USER_HOME}/logs_history/${SYSTEM_NAME}-debug-%d{yyyyMMdd}-%i.gz</FileNamePattern>
+            <MaxHistory>90</MaxHistory>
+            <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <MaxFileSize>${MaxSize}</MaxFileSize>
+            </TimeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <layout>
+            <Pattern>${custom_layout}</Pattern>
+        </layout>
+    </appender>
+
+    <!-- =========================================公用配置Start=============================== -->
+    <appender name="info" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${USER_HOME}/logs/${SYSTEM_NAME}-info.log</File>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator>
+                <expression>level>=INFO</expression>
+            </evaluator>
+            <OnMatch>ACCEPT</OnMatch>
+            <OnMismatch>DENY</OnMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${USER_HOME}/logs_history/${SYSTEM_NAME}-info-%d{yyyyMMdd}-%i.gz</FileNamePattern>
+            <MaxHistory>90</MaxHistory>
+            <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <MaxFileSize>${MaxSize}</MaxFileSize>
+            </TimeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <layout>
+            <Pattern>${custom_layout}</Pattern>
+        </layout>
+    </appender>
+
+
+    <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${USER_HOME}/logs/${SYSTEM_NAME}-error.log</File>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator>
+                <expression>level==ERROR</expression>
+            </evaluator>
+            <OnMatch>ACCEPT</OnMatch>
+            <OnMismatch>DENY</OnMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${USER_HOME}/logs_history/${SYSTEM_NAME}-error-%d{yyyyMMdd}.gz</FileNamePattern>
+            <MaxHistory>90</MaxHistory>
+        </rollingPolicy>
+        <layout>
+            <Pattern>${custom_layout}</Pattern>
+        </layout>
+    </appender>
+    <!-- =========================================公用配置End=============================== -->
+    <appender name="async_debug" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->
+        <discardingThreshold>0</discardingThreshold>
+        <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->
+        <queueSize>${QueueSize}</queueSize>
+        <!-- 缓冲时间 -->
+        <maxFlushTime>${MaxFlushTime}</maxFlushTime>
+        <appender-ref ref="debug"/>
+    </appender>
+    <appender name="async_info" class="ch.qos.logback.classic.AsyncAppender">
+        <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->
+        <discardingThreshold>0</discardingThreshold>
+        <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->
+        <queueSize>${QueueSize}</queueSize>
+        <!-- 缓冲时间 -->
+        <maxFlushTime>${MaxFlushTime}</maxFlushTime>
+        <appender-ref ref="info"/>
+    </appender>
+    <logger name="org.springframework.session.web.http.SessionRepositoryFilter" level="info"/>
+    <logger name="org.redisson" level="info"/>
+    <root level="DEBUG">
+        <appender-ref ref="async_info"/>
+        <appender-ref ref="error"/>
+        <!--  开发使用 下面上线屏蔽 -->
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="async_debug"/>
+    </root>
+</configuration>
+

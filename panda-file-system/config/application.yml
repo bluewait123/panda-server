@@ -1,0 +1,40 @@
+system:
+  type: file
+
+server:
+  port: 12401
+  servlet:
+    context-path: /file
+
+spring:
+  profiles:
+    active: debug
+  jndi:
+    ignore: true
+
+logging:
+  config: ${user.dir}/config/logConfig.xml
+  path: ${user.dir}
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+
+mybatis:
+  type-aliases-package: com.panda.mybatis.po
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: countSql
+  returnPageInfo: check
+  row-bounds-with-count: true
+  offset-as-page-num: true
+
+markdown:
+  template: ${user.dir}/config/markdown_template.html
+  replaceKey: '@@REPLACE_TEXT@@'

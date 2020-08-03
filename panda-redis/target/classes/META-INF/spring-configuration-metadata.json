@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "spring.cache",
+      "type": "com.panda.common.redis.utils.CacheNameInfo",
+      "sourceType": "com.panda.common.redis.utils.CacheNameInfo"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.cache.names",
+      "type": "java.util.List<com.panda.common.redis.vo.CacheName>",
+      "sourceType": "com.panda.common.redis.utils.CacheNameInfo"
+    }
+  ],
+  "hints": []
+}

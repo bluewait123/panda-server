@@ -1,0 +1,45 @@
+system:
+  type: note
+
+server:
+  port: 12302
+  servlet:
+    context-path: /boss/note
+
+spring:
+  profiles:
+    active: debug
+  jndi:
+    ignore: true
+
+logging:
+  config: ${user.dir}/config/logConfig.xml
+  path: ${user.dir}
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+
+mybatis:
+  type-aliases-package: com.panda.mybatis.po
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: countSql
+  returnPageInfo: check
+  row-bounds-with-count: true
+  offset-as-page-num: true
+
+rest:
+  template:
+    # 从连接池获取连接时间
+    request: 30000
+    # 请求超时时间
+    connect: 30000
+    # 读取内容超时时间
+    read: 30000

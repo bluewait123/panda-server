@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "auth.ignore",
+      "type": "com.panda.boss.auth.utils.AuthIgnoreResources",
+      "sourceType": "com.panda.boss.auth.utils.AuthIgnoreResources"
+    }
+  ],
+  "properties": [
+    {
+      "name": "auth.ignore.resource",
+      "type": "java.util.List<java.lang.String>",
+      "description": "资源白名单",
+      "sourceType": "com.panda.boss.auth.utils.AuthIgnoreResources"
+    },
+    {
+      "name": "auth.ignore.url",
+      "type": "java.util.List<java.lang.String>",
+      "description": "URL白名单",
+      "sourceType": "com.panda.boss.auth.utils.AuthIgnoreResources"
+    }
+  ],
+  "hints": []
+}

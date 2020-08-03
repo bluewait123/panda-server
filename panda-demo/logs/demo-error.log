@@ -1,0 +1,433 @@
+20200722 13:39:31 711 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:40:13 975 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:41:27 645 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:42:43 337 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:45:54 567 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:47:34 163 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:51:30 349 [main-demo][ERROR]-Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+20200722 13:51:30 362 [main-demo][ERROR]-Problem with servlet engine /WEB-INF directory
+org.apache.axis.ConfigurationException: Configuration file directory '/private/var/folders/wc/vlbjdb192nnb9mzxh1jtnclm0000gn/T/tomcat-docbase.6736235598645660111.18888/WEB-INF' does not exist or is not a directory or is not readable.
+	at org.apache.axis.configuration.FileProvider.<init>(FileProvider.java:99)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:174)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:99)
+	at org.apache.axis.transport.http.AxisServletBase.getEngineEnvironment(AxisServletBase.java:273)
+	at org.apache.axis.transport.http.AxisServletBase.getEngine(AxisServletBase.java:172)
+	at org.apache.axis.transport.http.AxisServletBase.getOption(AxisServletBase.java:396)
+	at org.apache.axis.transport.http.AxisServletBase.init(AxisServletBase.java:112)
+	at org.apache.axis.transport.http.AxisServlet.init(AxisServlet.java:156)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:986)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.load(TomcatEmbeddedContext.java:82)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.TreeMap$ValueSpliterator.forEachRemaining(TreeMap.java:2897)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.lambda$deferredLoadOnStartup$0(TomcatEmbeddedContext.java:65)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.doWithThreadContextClassLoader(TomcatEmbeddedContext.java:106)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.deferredLoadOnStartup(TomcatEmbeddedContext.java:64)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.performDeferredLoadOnStartup(TomcatWebServer.java:305)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:216)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+20200722 13:53:56 892 [main-demo][ERROR]-Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+20200722 13:53:56 905 [main-demo][ERROR]-Problem with servlet engine /WEB-INF directory
+org.apache.axis.ConfigurationException: Configuration file directory '/private/var/folders/wc/vlbjdb192nnb9mzxh1jtnclm0000gn/T/tomcat-docbase.4736197531453512417.18888/WEB-INF' does not exist or is not a directory or is not readable.
+	at org.apache.axis.configuration.FileProvider.<init>(FileProvider.java:99)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:174)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:99)
+	at org.apache.axis.transport.http.AxisServletBase.getEngineEnvironment(AxisServletBase.java:273)
+	at org.apache.axis.transport.http.AxisServletBase.getEngine(AxisServletBase.java:172)
+	at org.apache.axis.transport.http.AxisServletBase.getOption(AxisServletBase.java:396)
+	at org.apache.axis.transport.http.AxisServletBase.init(AxisServletBase.java:112)
+	at org.apache.axis.transport.http.AxisServlet.init(AxisServlet.java:156)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:986)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.load(TomcatEmbeddedContext.java:82)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.TreeMap$ValueSpliterator.forEachRemaining(TreeMap.java:2897)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.lambda$deferredLoadOnStartup$0(TomcatEmbeddedContext.java:65)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.doWithThreadContextClassLoader(TomcatEmbeddedContext.java:106)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.deferredLoadOnStartup(TomcatEmbeddedContext.java:64)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.performDeferredLoadOnStartup(TomcatWebServer.java:305)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:216)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+20200722 14:16:36 059 [main-demo][ERROR]-Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration': Unsatisfied dependency expressed through field 'properties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'cxf-org.apache.cxf.spring.boot.autoconfigure.CxfProperties': Could not bind properties to 'CxfProperties' : prefix=cxf, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is javax.validation.NoProviderFoundException: Unable to create a Configuration, because no Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+20200722 14:16:36 096 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+20200722 14:17:18 580 [main-demo][ERROR]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'WebServiceDemoEndpoint' defined in class path resource [com/panda/demo/webservice/config/WebServiceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.xml.ws.Endpoint]: Factory method 'sweptPayEndpoint' threw exception; nested exception is javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.xml.ws.Endpoint]: Factory method 'sweptPayEndpoint' threw exception; nested exception is javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.apache.cxf.jaxws.EndpointImpl.doPublish(EndpointImpl.java:375)
+	at org.apache.cxf.jaxws.EndpointImpl.publish(EndpointImpl.java:255)
+	at com.panda.demo.webservice.config.WebServiceConfig.sweptPayEndpoint(WebServiceConfig.java:42)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$205a9af7.CGLIB$sweptPayEndpoint$2(<generated>)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$205a9af7$$FastClassBySpringCGLIB$$714d9750.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$205a9af7.sweptPayEndpoint(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+Caused by: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.apache.cxf.jaxws.support.JaxWsImplementorInfo.initialize(JaxWsImplementorInfo.java:301)
+	at org.apache.cxf.jaxws.support.JaxWsImplementorInfo.<init>(JaxWsImplementorInfo.java:60)
+	at org.apache.cxf.jaxws.EndpointImpl.getServer(EndpointImpl.java:403)
+	at org.apache.cxf.jaxws.EndpointImpl.doPublish(EndpointImpl.java:338)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.panda.demo.webservice.service
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.cxf.common.classloader.ClassLoaderUtils.loadClass2(ClassLoaderUtils.java:307)
+	at org.apache.cxf.common.classloader.ClassLoaderUtils.loadClass(ClassLoaderUtils.java:278)
+	at org.apache.cxf.jaxws.support.JaxWsImplementorInfo.initialize(JaxWsImplementorInfo.java:299)
+	... 36 common frames omitted
+20200722 14:18:21 518 [main-demo][ERROR]-Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration': Unsatisfied dependency expressed through field 'properties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'cxf-org.apache.cxf.spring.boot.autoconfigure.CxfProperties': Could not bind properties to 'CxfProperties' : prefix=cxf, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is javax.validation.NoProviderFoundException: Unable to create a Configuration, because no Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+20200722 14:18:21 559 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+20200722 14:42:28 705 [main-demo][ERROR]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cxf' defined in class path resource [com/panda/demo/webservice/config/WebServiceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.cxf.bus.spring.SpringBus]: Factory method 'springBus' threw exception; nested exception is org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.cxf.bus.spring.SpringBus]: Factory method 'springBus' threw exception; nested exception is org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+	at org.apache.cxf.bus.extension.Extension.tryClass(Extension.java:183)
+	at org.apache.cxf.bus.extension.Extension.getClassObject(Extension.java:199)
+	at org.apache.cxf.bus.extension.ExtensionManagerImpl.activateAllByType(ExtensionManagerImpl.java:144)
+	at org.apache.cxf.bus.extension.ExtensionManagerBus.<init>(ExtensionManagerBus.java:179)
+	at org.apache.cxf.bus.extension.ExtensionManagerBus.<init>(ExtensionManagerBus.java:191)
+	at org.apache.cxf.bus.spring.SpringBus.<init>(SpringBus.java:45)
+	at com.panda.demo.webservice.config.WebServiceConfig.springBus(WebServiceConfig.java:33)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$5b6e294a.CGLIB$springBus$1(<generated>)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$5b6e294a$$FastClassBySpringCGLIB$$ffd21c9d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$5b6e294a.springBus(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/cxf/wsdl/binding/AbstractWSDLBindingFactory
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.cxf.bus.extension.Extension.tryClass(Extension.java:164)
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.cxf.wsdl.binding.AbstractWSDLBindingFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 50 common frames omitted
+20200722 14:44:51 889 [main-demo][ERROR]-Application run failed
+java.lang.IllegalArgumentException: Could not find class [org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:334)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:446)
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:369)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:284)
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193)
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:102)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:81)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.registerBeanDefinitionForImportedConfigurationClass(ConfigurationClassBeanDefinitionReader.java:160)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:324)
+	... 25 common frames omitted
+20200722 14:45:45 507 [main-demo][ERROR]-Application run failed
+java.lang.IllegalArgumentException: Could not find class [org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:334)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:446)
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:369)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:284)
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193)
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:102)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:81)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.registerBeanDefinitionForImportedConfigurationClass(ConfigurationClassBeanDefinitionReader.java:160)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:324)
+	... 25 common frames omitted
+20200722 14:48:41 947 [http-nio-18888-exec-3-demo][ERROR]-Invocation without a binding operation.

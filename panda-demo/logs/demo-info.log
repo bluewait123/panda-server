@@ -1,0 +1,676 @@
+20200722 10:45:01 680 [http-nio-18888-exec-1-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:45:01 680 [http-nio-18888-exec-1-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953859010000001","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000013669","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000013669","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"104500","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"104500","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:45:02 776 [http-nio-18888-exec-2-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:45:02 776 [http-nio-18888-exec-2-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953859020000002","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000022947","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000022947","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"104502","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"104502","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:45:23 844 [http-nio-18888-exec-3-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:45:23 844 [http-nio-18888-exec-3-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953859230000003","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000035367","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000035367","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"104523","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"104523","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:46:04 108 [http-nio-18888-exec-5-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:46:04 108 [http-nio-18888-exec-5-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953859630000004","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000046911","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000046911","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"104603","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"104603","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:48:36 981 [http-nio-18888-exec-7-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:48:36 981 [http-nio-18888-exec-7-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953861160000005","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000056171","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000056171","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"104836","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"104836","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:51:57 898 [http-nio-18888-exec-9-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:51:57 898 [http-nio-18888-exec-9-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953863170000006","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000068232","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000068232","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"105157","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"105157","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:52:29 945 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'
+20200722 10:52:34 100 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 34560 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 10:52:34 101 [main-demo][INFO]-The following profiles are active: debug
+20200722 10:52:34 954 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 10:52:34 961 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 10:52:34 962 [main-demo][INFO]-Starting service [Tomcat]
+20200722 10:52:34 962 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 10:52:35 020 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 10:52:35 021 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 879 ms
+20200722 10:52:35 467 [main-demo][INFO]-Initializing ExecutorService 'applicationTaskExecutor'
+20200722 10:52:35 602 [main-demo][INFO]-Starting ProtocolHandler ["http-nio-18888"]
+20200722 10:52:35 628 [main-demo][INFO]-Tomcat started on port(s): 18888 (http) with context path '/demo'
+20200722 10:52:35 636 [main-demo][INFO]-Started Application in 2.131 seconds (JVM running for 2.6)
+20200722 10:52:39 799 [http-nio-18888-exec-1-demo][INFO]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+20200722 10:52:39 799 [http-nio-18888-exec-1-demo][INFO]-Initializing Servlet 'dispatcherServlet'
+20200722 10:52:39 805 [http-nio-18888-exec-1-demo][INFO]-Completed initialization in 6 ms
+20200722 10:52:39 839 [http-nio-18888-exec-1-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:52:39 842 [http-nio-18888-exec-1-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953863590000007","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000075900","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000075900","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"105239","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"105239","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 10:53:40 515 [http-nio-18888-exec-3-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 10:53:40 515 [http-nio-18888-exec-3-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953864200000008","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000084063","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000084063","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"105339","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"105339","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 11:05:29 667 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'
+20200722 11:05:33 340 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 35370 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 11:05:33 341 [main-demo][INFO]-The following profiles are active: debug
+20200722 11:05:34 069 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 11:05:34 074 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 11:05:34 074 [main-demo][INFO]-Starting service [Tomcat]
+20200722 11:05:34 074 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 11:05:34 128 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 11:05:34 128 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 751 ms
+20200722 11:05:34 528 [main-demo][INFO]-Initializing ExecutorService 'applicationTaskExecutor'
+20200722 11:05:34 638 [main-demo][INFO]-Starting ProtocolHandler ["http-nio-18888"]
+20200722 11:05:34 665 [main-demo][INFO]-Tomcat started on port(s): 18888 (http) with context path '/demo'
+20200722 11:05:34 672 [main-demo][INFO]-Started Application in 1.839 seconds (JVM running for 2.269)
+20200722 11:06:28 366 [http-nio-18888-exec-1-demo][INFO]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+20200722 11:06:28 366 [http-nio-18888-exec-1-demo][INFO]-Initializing Servlet 'dispatcherServlet'
+20200722 11:06:28 373 [http-nio-18888-exec-1-demo][INFO]-Completed initialization in 7 ms
+20200722 11:06:28 401 [http-nio-18888-exec-1-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 11:06:28 403 [http-nio-18888-exec-1-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953871870000009","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000090742","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000090742","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"110627","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"110627","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 11:06:29 062 [http-nio-18888-exec-2-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 11:06:29 062 [http-nio-18888-exec-2-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953871880000010","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000100080","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000100080","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"110628","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"110628","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 11:06:59 003 [http-nio-18888-exec-3-demo][INFO]-接收数据-AOP: http://127.0.0.1:18888/demo/longjiang/esb, method: POST, url: /demo/longjiang/esb, contentType:application/json, params: null
+20200722 11:06:59 003 [http-nio-18888-exec-3-demo][INFO]-接收数据-AOP: {"ReqBody":{"CXUNBS":"","KEHHAO":"","KEHUZH":"","QISHBS":"","ZHJHAO":"320321199107211234","ZHJNLX":"1"},"ReqBusiHeader":{"ApprFalg":"","AuthFlag":"","AuthTellerInfoArray":[],"BrchNo":"","EvtTraceId":"000001FFT15953872180000011","InputTelleInfoArray":[],"LastRecKeyValue":"","MltPageQryMode":"","OrgBusiDate":"20200722","OrgSeqNo":"20200722000000119126","QryMaxRecNum":"","QryPageNum":"","ReqBusiDate":"20200722","ReqFileInfoArray":[],"ReqFileNum":"","ReqSeqNo":"20200722000000119126","TellerLvl":"","TellerNo":"99999001","TellerPwd":""},"ReqCommHeader":{"MsgChkCode":"","OrgChnlType":"","OrgSysId":"000001","OrgSysSecId":"","OrgTranDate":"20200722","OrgTranTime":"110658","OrgTrmNo":"","ReqSysId":"004001","ReqSysSecId":"","ReqTranDate":"20200722","ReqTranTime":"110658","ReqTrmNo":"","SvcCode":"S000001001000101","SvcSceneCode":"01","UserLanguage":"Chinese"}}
+20200722 11:18:36 349 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'
+20200722 13:39:30 965 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 44436 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:39:30 966 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:39:31 623 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20200722 13:39:31 711 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:40:13 335 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 44488 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:40:13 336 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:40:13 915 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20200722 13:40:13 975 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:41:26 965 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 44585 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:41:26 965 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:41:27 577 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20200722 13:41:27 645 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:42:42 596 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 44696 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:42:42 596 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:42:43 264 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20200722 13:42:43 337 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:45:53 853 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 44894 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:45:53 853 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:45:54 498 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20200722 13:45:54 567 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:47:01 489 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 44963 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:47:01 490 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:47:02 194 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 13:47:02 199 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 13:47:02 200 [main-demo][INFO]-Starting service [Tomcat]
+20200722 13:47:02 200 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 13:47:02 253 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 13:47:02 253 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 729 ms
+20200722 13:47:02 643 [main-demo][INFO]-Initializing ExecutorService 'applicationTaskExecutor'
+20200722 13:47:02 757 [main-demo][INFO]-Starting ProtocolHandler ["http-nio-18888"]
+20200722 13:47:02 784 [main-demo][INFO]-Tomcat started on port(s): 18888 (http) with context path '/demo'
+20200722 13:47:02 792 [main-demo][INFO]-Started Application in 1.808 seconds (JVM running for 2.21)
+20200722 13:47:05 782 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'
+20200722 13:47:33 464 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 45002 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:47:33 464 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:47:34 095 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'errorPageCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration.class]: Unsatisfied dependency expressed through method 'errorPageCustomizer' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20200722 13:47:34 163 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method errorPageCustomizer in org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration required a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'dispatcherServletRegistration' in 'DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration' not loaded because DispatcherServlet Registration found non dispatcher servlet dispatcherServlet
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath' in your configuration.
+
+20200722 13:51:28 966 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 45232 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:51:28 966 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:51:29 726 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 13:51:29 732 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 13:51:29 732 [main-demo][INFO]-Starting service [Tomcat]
+20200722 13:51:29 732 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 13:51:29 793 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 13:51:29 793 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 792 ms
+20200722 13:51:30 197 [main-demo][INFO]-Initializing ExecutorService 'applicationTaskExecutor'
+20200722 13:51:30 307 [main-demo][INFO]-Starting ProtocolHandler ["http-nio-18888"]
+20200722 13:51:30 349 [main-demo][ERROR]-Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+20200722 13:51:30 362 [main-demo][ERROR]-Problem with servlet engine /WEB-INF directory
+org.apache.axis.ConfigurationException: Configuration file directory '/private/var/folders/wc/vlbjdb192nnb9mzxh1jtnclm0000gn/T/tomcat-docbase.6736235598645660111.18888/WEB-INF' does not exist or is not a directory or is not readable.
+	at org.apache.axis.configuration.FileProvider.<init>(FileProvider.java:99)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:174)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:99)
+	at org.apache.axis.transport.http.AxisServletBase.getEngineEnvironment(AxisServletBase.java:273)
+	at org.apache.axis.transport.http.AxisServletBase.getEngine(AxisServletBase.java:172)
+	at org.apache.axis.transport.http.AxisServletBase.getOption(AxisServletBase.java:396)
+	at org.apache.axis.transport.http.AxisServletBase.init(AxisServletBase.java:112)
+	at org.apache.axis.transport.http.AxisServlet.init(AxisServlet.java:156)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:986)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.load(TomcatEmbeddedContext.java:82)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.TreeMap$ValueSpliterator.forEachRemaining(TreeMap.java:2897)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.lambda$deferredLoadOnStartup$0(TomcatEmbeddedContext.java:65)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.doWithThreadContextClassLoader(TomcatEmbeddedContext.java:106)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.deferredLoadOnStartup(TomcatEmbeddedContext.java:64)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.performDeferredLoadOnStartup(TomcatWebServer.java:305)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:216)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+20200722 13:51:30 362 [main-demo][WARN]-Unable to load/create servlet engine config file, attempting internal default (from jar).
+20200722 13:51:30 384 [main-demo][WARN]-Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+20200722 13:51:30 446 [main-demo][INFO]-Tomcat started on port(s): 18888 (http) with context path '/demo'
+20200722 13:51:30 455 [main-demo][INFO]-Started Application in 1.995 seconds (JVM running for 2.4)
+20200722 13:53:48 254 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'
+20200722 13:53:55 428 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 45385 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 13:53:55 429 [main-demo][INFO]-The following profiles are active: debug
+20200722 13:53:56 002 [main-demo][INFO]-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d0dbd33d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20200722 13:53:56 025 [main-demo][INFO]-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20200722 13:53:56 262 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 13:53:56 267 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 13:53:56 268 [main-demo][INFO]-Starting service [Tomcat]
+20200722 13:53:56 268 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 13:53:56 323 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 13:53:56 323 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 854 ms
+20200722 13:53:56 727 [main-demo][INFO]-Initializing ExecutorService 'applicationTaskExecutor'
+20200722 13:53:56 854 [main-demo][INFO]-Starting ProtocolHandler ["http-nio-18888"]
+20200722 13:53:56 892 [main-demo][ERROR]-Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+20200722 13:53:56 905 [main-demo][ERROR]-Problem with servlet engine /WEB-INF directory
+org.apache.axis.ConfigurationException: Configuration file directory '/private/var/folders/wc/vlbjdb192nnb9mzxh1jtnclm0000gn/T/tomcat-docbase.4736197531453512417.18888/WEB-INF' does not exist or is not a directory or is not readable.
+	at org.apache.axis.configuration.FileProvider.<init>(FileProvider.java:99)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:174)
+	at org.apache.axis.configuration.EngineConfigurationFactoryServlet.getServerEngineConfig(EngineConfigurationFactoryServlet.java:99)
+	at org.apache.axis.transport.http.AxisServletBase.getEngineEnvironment(AxisServletBase.java:273)
+	at org.apache.axis.transport.http.AxisServletBase.getEngine(AxisServletBase.java:172)
+	at org.apache.axis.transport.http.AxisServletBase.getOption(AxisServletBase.java:396)
+	at org.apache.axis.transport.http.AxisServletBase.init(AxisServletBase.java:112)
+	at org.apache.axis.transport.http.AxisServlet.init(AxisServlet.java:156)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:986)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.load(TomcatEmbeddedContext.java:82)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.TreeMap$ValueSpliterator.forEachRemaining(TreeMap.java:2897)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.lambda$deferredLoadOnStartup$0(TomcatEmbeddedContext.java:65)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.doWithThreadContextClassLoader(TomcatEmbeddedContext.java:106)
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedContext.deferredLoadOnStartup(TomcatEmbeddedContext.java:64)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.performDeferredLoadOnStartup(TomcatWebServer.java:305)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:216)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+20200722 13:53:56 905 [main-demo][WARN]-Unable to load/create servlet engine config file, attempting internal default (from jar).
+20200722 13:53:56 923 [main-demo][WARN]-Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+20200722 13:53:56 965 [main-demo][INFO]-Tomcat started on port(s): 18888 (http) with context path '/demo'
+20200722 13:53:56 974 [main-demo][INFO]-Started Application in 2.135 seconds (JVM running for 2.625)
+20200722 13:55:27 247 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'
+20200722 14:16:35 117 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 46789 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:16:35 118 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:16:35 680 [main-demo][INFO]-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$88064993] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20200722 14:16:35 698 [main-demo][INFO]-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20200722 14:16:35 932 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 14:16:35 937 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 14:16:35 938 [main-demo][INFO]-Starting service [Tomcat]
+20200722 14:16:35 938 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 14:16:35 990 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 14:16:35 990 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 833 ms
+20200722 14:16:36 059 [main-demo][ERROR]-Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration': Unsatisfied dependency expressed through field 'properties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'cxf-org.apache.cxf.spring.boot.autoconfigure.CxfProperties': Could not bind properties to 'CxfProperties' : prefix=cxf, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is javax.validation.NoProviderFoundException: Unable to create a Configuration, because no Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+20200722 14:16:36 077 [main-demo][INFO]-Stopping service [Tomcat]
+20200722 14:16:36 082 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+20200722 14:16:36 096 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+20200722 14:17:17 247 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 46848 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:17:17 247 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:17:17 817 [main-demo][INFO]-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$58b30e45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20200722 14:17:17 835 [main-demo][INFO]-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20200722 14:17:18 070 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 14:17:18 077 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 14:17:18 077 [main-demo][INFO]-Starting service [Tomcat]
+20200722 14:17:18 077 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 14:17:18 142 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 14:17:18 142 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 857 ms
+20200722 14:17:18 229 [main-demo][INFO]-Servlet CXFServlet was not registered (possibly already registered?)
+20200722 14:17:18 562 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'WebServiceDemoEndpoint' defined in class path resource [com/panda/demo/webservice/config/WebServiceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.xml.ws.Endpoint]: Factory method 'sweptPayEndpoint' threw exception; nested exception is javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+20200722 14:17:18 564 [main-demo][INFO]-Stopping service [Tomcat]
+20200722 14:17:18 580 [main-demo][ERROR]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'WebServiceDemoEndpoint' defined in class path resource [com/panda/demo/webservice/config/WebServiceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.xml.ws.Endpoint]: Factory method 'sweptPayEndpoint' threw exception; nested exception is javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.xml.ws.Endpoint]: Factory method 'sweptPayEndpoint' threw exception; nested exception is javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: javax.xml.ws.WebServiceException: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.apache.cxf.jaxws.EndpointImpl.doPublish(EndpointImpl.java:375)
+	at org.apache.cxf.jaxws.EndpointImpl.publish(EndpointImpl.java:255)
+	at com.panda.demo.webservice.config.WebServiceConfig.sweptPayEndpoint(WebServiceConfig.java:42)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$205a9af7.CGLIB$sweptPayEndpoint$2(<generated>)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$205a9af7$$FastClassBySpringCGLIB$$714d9750.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$205a9af7.sweptPayEndpoint(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+Caused by: javax.xml.ws.WebServiceException: Could not load Webservice SEI
+	at org.apache.cxf.jaxws.support.JaxWsImplementorInfo.initialize(JaxWsImplementorInfo.java:301)
+	at org.apache.cxf.jaxws.support.JaxWsImplementorInfo.<init>(JaxWsImplementorInfo.java:60)
+	at org.apache.cxf.jaxws.EndpointImpl.getServer(EndpointImpl.java:403)
+	at org.apache.cxf.jaxws.EndpointImpl.doPublish(EndpointImpl.java:338)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.panda.demo.webservice.service
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.cxf.common.classloader.ClassLoaderUtils.loadClass2(ClassLoaderUtils.java:307)
+	at org.apache.cxf.common.classloader.ClassLoaderUtils.loadClass(ClassLoaderUtils.java:278)
+	at org.apache.cxf.jaxws.support.JaxWsImplementorInfo.initialize(JaxWsImplementorInfo.java:299)
+	... 36 common frames omitted
+20200722 14:18:20 567 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 46923 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:18:20 568 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:18:21 127 [main-demo][INFO]-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$38bebbd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20200722 14:18:21 145 [main-demo][INFO]-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20200722 14:18:21 379 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 14:18:21 385 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 14:18:21 386 [main-demo][INFO]-Starting service [Tomcat]
+20200722 14:18:21 386 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 14:18:21 452 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 14:18:21 452 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 850 ms
+20200722 14:18:21 518 [main-demo][ERROR]-Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration': Unsatisfied dependency expressed through field 'properties'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'cxf-org.apache.cxf.spring.boot.autoconfigure.CxfProperties': Could not bind properties to 'CxfProperties' : prefix=cxf, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is javax.validation.NoProviderFoundException: Unable to create a Configuration, because no Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+20200722 14:18:21 535 [main-demo][INFO]-Stopping service [Tomcat]
+20200722 14:18:21 538 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+20200722 14:18:21 559 [main-demo][ERROR]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Bean Validation API is on the classpath but no implementation could be found
+
+Action:
+
+Add an implementation, such as Hibernate Validator, to the classpath
+
+20200722 14:42:27 388 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 48452 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:42:27 388 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:42:28 245 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 14:42:28 251 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 14:42:28 251 [main-demo][INFO]-Starting service [Tomcat]
+20200722 14:42:28 251 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 14:42:28 307 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 14:42:28 307 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 880 ms
+20200722 14:42:28 688 [main-demo][WARN]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cxf' defined in class path resource [com/panda/demo/webservice/config/WebServiceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.cxf.bus.spring.SpringBus]: Factory method 'springBus' threw exception; nested exception is org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+20200722 14:42:28 690 [main-demo][INFO]-Stopping service [Tomcat]
+20200722 14:42:28 705 [main-demo][ERROR]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cxf' defined in class path resource [com/panda/demo/webservice/config/WebServiceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.cxf.bus.spring.SpringBus]: Factory method 'springBus' threw exception; nested exception is org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.cxf.bus.spring.SpringBus]: Factory method 'springBus' threw exception; nested exception is org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: org.apache.cxf.bus.extension.ExtensionException: Could not load extension class org.apache.cxf.binding.soap.SoapBindingFactory.
+	at org.apache.cxf.bus.extension.Extension.tryClass(Extension.java:183)
+	at org.apache.cxf.bus.extension.Extension.getClassObject(Extension.java:199)
+	at org.apache.cxf.bus.extension.ExtensionManagerImpl.activateAllByType(ExtensionManagerImpl.java:144)
+	at org.apache.cxf.bus.extension.ExtensionManagerBus.<init>(ExtensionManagerBus.java:179)
+	at org.apache.cxf.bus.extension.ExtensionManagerBus.<init>(ExtensionManagerBus.java:191)
+	at org.apache.cxf.bus.spring.SpringBus.<init>(SpringBus.java:45)
+	at com.panda.demo.webservice.config.WebServiceConfig.springBus(WebServiceConfig.java:33)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$5b6e294a.CGLIB$springBus$1(<generated>)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$5b6e294a$$FastClassBySpringCGLIB$$ffd21c9d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.panda.demo.webservice.config.WebServiceConfig$$EnhancerBySpringCGLIB$$5b6e294a.springBus(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/cxf/wsdl/binding/AbstractWSDLBindingFactory
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.cxf.bus.extension.Extension.tryClass(Extension.java:164)
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.cxf.wsdl.binding.AbstractWSDLBindingFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 50 common frames omitted
+20200722 14:44:51 496 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 48607 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:44:51 497 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:44:51 889 [main-demo][ERROR]-Application run failed
+java.lang.IllegalArgumentException: Could not find class [org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:334)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:446)
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:369)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:284)
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193)
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:102)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:81)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.registerBeanDefinitionForImportedConfigurationClass(ConfigurationClassBeanDefinitionReader.java:160)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:324)
+	... 25 common frames omitted
+20200722 14:45:45 093 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 48674 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:45:45 093 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:45:45 507 [main-demo][ERROR]-Application run failed
+java.lang.IllegalArgumentException: Could not find class [org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:334)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:446)
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:369)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:284)
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193)
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:102)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:81)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.registerBeanDefinitionForImportedConfigurationClass(ConfigurationClassBeanDefinitionReader.java:160)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.panda.demo.Application.main(Application.java:31)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:324)
+	... 25 common frames omitted
+20200722 14:47:53 060 [main-demo][INFO]-Starting Application on wujianhuideMacBook-Pro.local with PID 48819 (/Users/wujianhui/work/project/panda/panda-demo/target/classes started by wujianhui in /Users/wujianhui/work/project/panda/panda-demo)
+20200722 14:47:53 060 [main-demo][INFO]-The following profiles are active: debug
+20200722 14:47:53 677 [main-demo][INFO]-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9f311135] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20200722 14:47:53 702 [main-demo][INFO]-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+20200722 14:47:53 968 [main-demo][INFO]-Tomcat initialized with port(s): 18888 (http)
+20200722 14:47:53 974 [main-demo][INFO]-Initializing ProtocolHandler ["http-nio-18888"]
+20200722 14:47:53 974 [main-demo][INFO]-Starting service [Tomcat]
+20200722 14:47:53 974 [main-demo][INFO]-Starting Servlet engine: [Apache Tomcat/9.0.36]
+20200722 14:47:54 033 [main-demo][INFO]-Initializing Spring embedded WebApplicationContext
+20200722 14:47:54 034 [main-demo][INFO]-Root WebApplicationContext: initialization completed in 936 ms
+20200722 14:47:54 498 [main-demo][INFO]-Creating Service {http://webservice.lli.com/}HelloService from class com.panda.demo.webservice.service.HelloService
+20200722 14:47:54 744 [main-demo][INFO]-Setting the server's publish address to be /webservice
+20200722 14:47:54 894 [main-demo][INFO]-Initializing ExecutorService 'applicationTaskExecutor'
+20200722 14:47:55 054 [main-demo][INFO]-Starting ProtocolHandler ["http-nio-18888"]
+20200722 14:47:55 083 [main-demo][INFO]-Tomcat started on port(s): 18888 (http) with context path '/demo'
+20200722 14:47:55 092 [main-demo][INFO]-Started Application in 2.646 seconds (JVM running for 3.111)
+20200722 14:48:41 947 [http-nio-18888-exec-3-demo][ERROR]-Invocation without a binding operation.
+20200722 14:48:41 953 [http-nio-18888-exec-3-demo][WARN]-Interceptor for {http://webservice.lli.com/}HelloService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: No binding operation info while invoking unknown method with params unknown.
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+20200722 14:48:53 247 [http-nio-18888-exec-4-demo][WARN]-Can't find the the request for http://127.0.0.1:18888/demo/webservice/HelloService's Observer 
+20200722 14:48:57 382 [http-nio-18888-exec-5-demo][WARN]-Can't find the the request for http://127.0.0.1:18888/demo/webservice/HelloService's Observer 
+20200722 14:49:00 197 [http-nio-18888-exec-6-demo][WARN]-Can't find the the request for http://127.0.0.1:18888/demo/webservice/HelloService's Observer 
+20200722 14:49:03 883 [http-nio-18888-exec-7-demo][WARN]-Can't find the the request for http://127.0.0.1:18888/demo/webservice/helloService's Observer 
+20200722 16:28:54 155 [SpringContextShutdownHook-demo][INFO]-Shutting down ExecutorService 'applicationTaskExecutor'

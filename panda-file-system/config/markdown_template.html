@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" href="http://120.79.216.133:12306/static/editormd/css/editormd.preview.css" />
+        <script src="http://120.79.216.133:12306/static/js/jquery-1.7.2.js"></script>
+        <script src="http://120.79.216.133:12306/static/editormd/editormd.js"></script>
+        <script src="http://120.79.216.133:12306/static/editormd/lib/marked.min.js"></script>
+        <script src="http://120.79.216.133:12306/static/editormd/lib/prettify.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="test-markdown-view">
+            <textarea style="display:none;"></textarea>
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                var testView = editormd.markdownToHTML("test-markdown-view", {
+                    markdown : '@@REPLACE_TEXT@@'
+                });
+            });
+        </script>
+    </body>
+</html>
